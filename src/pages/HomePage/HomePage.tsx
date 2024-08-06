@@ -12,6 +12,11 @@ export default function HomePage() {
       <main className={cx("main")}>
         <div className="layout_wrapper">
           <Calendar />
+
+          <ul className={cx("categories")}>
+            <li className={cx("category")}>대쉬보드</li>
+            <li className={cx("category")}>식사 기록</li>
+          </ul>
         </div>
       </main>
     </>
